@@ -111,6 +111,7 @@ public class CrimeFragment extends Fragment {
                 dialog.show(manager, DIALOG_DATE);
             }
         });
+
         mSolvedCheckBox = (CheckBox)v.findViewById(R.id.crime_solved);
         mSolvedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
